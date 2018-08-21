@@ -121,6 +121,8 @@ namespace AWSS3WebApi.Services
                     Key = keyName
                 };
 
+
+
                 string responseBody;
 
                 using(var response = await _amazonClient.GetObjectAsync(request))
