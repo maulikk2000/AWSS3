@@ -120,7 +120,7 @@ namespace AWSS3WebApi.Services
                     BucketName = bucketName,
                     Key = keyName
                 };
-
+                 
                 string responseBody;
 
                 using(var response = await _amazonClient.GetObjectAsync(request))
